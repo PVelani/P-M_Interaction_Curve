@@ -1,10 +1,10 @@
 Xcord = zeros(13,1); % to initialize array % Mu/(fckbD^2)
 Ycord =  zeros (13,1); % Pu/(fckBD)
 a = 2;
-fy = 415;  % in N/mm^2
-fck = 25;        % in N/mm^2
+fy = 415;  % in N/mm^2, Grade of steel
+fck = 25;        % in N/mm^2, Grade of conrete 
 fsc=   327.7388; % in N/mm^2
-rat = 0.1;       % d'/D = 0.1 %
+rat = 0.1;       % d'/D = 0.1 %, Cover to total depth ratio
 % p/fck is taken as P %
 % P varies from 0.1 to 0.16 %
 % value of is from 1 to 2%
